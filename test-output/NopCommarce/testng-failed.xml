@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommarce]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.User_Reg_Tests">
+        <methods>
+          <include name="startdriver"/>
+          <include name="User_REG_Secssfully"/>
+          <include name="stopdriver"/>
+        </methods>
+      </class> <!-- tests.User_Reg_Tests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [NopCommarce] -->
